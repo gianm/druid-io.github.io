@@ -9,6 +9,11 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables", "no_intra_emphasis", "fenced_code_blocks", "with_toc_data"]
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
 highlighter: pygments
 
 title: 'Druid'
